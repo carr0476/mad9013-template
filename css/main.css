@@ -10,7 +10,7 @@
 }
 
 html {
-    font-family: sans-serif;
+    font-family: 'arial light', 'web font', 'osx fallback', 'win fallback', sans-serif;
     line-height: 1.5;
     margin: auto;
     max-width: 50rem;
@@ -21,10 +21,7 @@ html {
 nav {
     padding: 0rem 2rem;
     font-size: 2rem;
-/*    word-spacing: 6rem;*/
     background-color: hsl(45deg, 70%, 70%);
-
-
 }
 
 nav > a {
@@ -41,6 +38,7 @@ header {
     padding: 2rem;
     background: url(../img/1000.jpeg) center center / cover no-repeat;
     border-top: 1.3rem solid hsl(45deg, 90%, 90%);
+    size:20%;
     font-size: 3rem;
 }
 
@@ -62,7 +60,7 @@ main {
 main > h2 {
     font-size: 3rem;
     color: hsl(45deg, 90%, 50%);
-    /*    padding: 2rem 2rem 2rem 0rem;*/
+    padding: 1rem 0rem 1rem 0rem;
 }
 
 p + h2 {
